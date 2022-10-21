@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+:root{
+    --font1: 'Sriracha', cursive;
+    --font2: Verdana, Geneva, Tahoma, sans-serif;
+    --font3: font-family: 'Passion One', cursive;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: lightgreen;
+}
+header{
+    background-color: black;
+    color: white;
+}
+header h1{
+    font-variant: small-caps;
+    font-family: var(--font3);
+    text-align: center;
+    padding-top: 50px;
+    font-size: 4vw;
+}
+header>p{
+    text-align: center;
+    padding-bottom: 50px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    text-decoration: underline;
+}
+/*________________________________________________________________________________ Cabeçalho*/
+section{
+    text-align: center;
+    text-indent: 20px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-size: 2.6vw;
+    font-family: var(--font1);
+    
+}
+section.normal{
+    background-color: white;
+    color: black;
+    box-shadow: inset 0px 0px 20px 1px black;
+}
+section.imagem{
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+section#img01{
+    background-image: url(pacote-d012/imagens/feliz-dia-dos-namorados.webp);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+section#img02{
+    background-image: url(pacote-d012/imagens/GL2.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+section.imagem p {
+    text-indent: 20px;
+    text-shadow: 2px 2px black;
+    
+    display: inline-block; /* Para se adptar ao tamanho da tela*/
+    padding: 10px;
+}
